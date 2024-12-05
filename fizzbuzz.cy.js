@@ -5,4 +5,8 @@ describe("FizzBuzz Function", () => {
         expect(fizzBuzz(3)).to.equal("Fizz");
     });
 
+    it("debe devolver 'Buzz' al ingresar 5", () => {
+        expect(fizzBuzz(5)).to.equal("Buzz");
+    });
+
 });
